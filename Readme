@@ -1,0 +1,6 @@
+This is the Verilog code for (16, 5) Hamming code. 
+src folder contains all the required files.
+encoder is an independent module.
+decoder and decoder_ham works together as a single module to decoder.
+test_bech is the simulation source which encodes a message then introduces a single bit error in the message. This error is introduced in practical scenario due to noise in nature.
+The transmitted message is then passed into decoder which correctly removes the error.
